@@ -1,1 +1,100 @@
 /* Styles for the Advanced Markup assignment. */
+
+
+body {
+  background: #E4D6B3;
+  font-family: Helvetica, Arial, sans-serif;
+}
+nav ul li {
+  display: inline;
+  border: ;
+}
+a.active {
+  background-color: #8F9A64;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0.8;
+}
+a:hover {
+  background-color: cornflowerblue;
+}
+#sidebar {
+  width: 300px;
+  float: right;
+  background-color: #E7A897;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+}
+#sidebar h2 {
+  font-size: 18px;
+}
+#sidebar ul li {
+  list-style: none;
+  display: inline;
+}
+#sidebar dl {
+  width: 300px;
+  overflow: wrap;
+  padding: 0;
+  margin: 0;
+}
+#sidebar dt {
+  float: left;
+  width: 40%;
+  padding: 0;
+  margin: 0;
+}
+#sidebar dd {
+  float: left;
+  width: 60%;
+  overflow: wrap;
+  padding: 0;
+  margin: 0;
+}
+a:link { opacity: 1; }
+.poem,
+.poem ul li {
+  list-style: none;
+  font-family: comic sans MS;
+  font-size: 15px;
+  line-height: 30px;
+}
+.bio-photo {
+  display: block;
+  float: left;
+  margin: 3px 0;
+  font-size: 80%;
+  text-align: center;
+}
+.bio-photo img {
+  display: block;
+  float: left;
+  margin: 5px 5px 10px 10px;
+  padding: 10px;
+}
+.table {
+  display: table;
+  vertical-align: left;
+}
+#selected_works {
+  border: 3px black solid;
+}
+#selected_works caption {
+  font-style: italic;
+  font-size: 20px;
+  margin: 4px;
+  padding: 10px;
+}
+.footer,
+.smalltext {
+  font-size: 12px;
+  text-align-last: center;
+}
+.bibliography,
+.bibliography ul li {
+  list-style: none;
+}
+
+
