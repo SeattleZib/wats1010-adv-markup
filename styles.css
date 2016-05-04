@@ -1,51 +1,62 @@
 /* Styles for the Advanced Markup assignment. */
 
-
+/* Begin Body */
+/* Changed background; added Font Family to Helvetica, Arial, sans-serif; */
 body {
   background: #E4D6B3;
   font-family: Helvetica, Arial, sans-serif;
 }
+/* Begin Navigation */
+/* Changed nav to be horizontal */
 nav ul li {
   display: inline;
-  border: ;
 }
+/* Added a.active with font size & weight, background color, text color */
 a.active {
-  background-color: #8F9A64;
-  color: white;
+  background-color: lightgray;
+  color: black;
   font-weight: bold;
   font-size: 20px;
   opacity: 0.8;
 }
+/* Added a:hover with background color */
 a:hover {
-  background-color: cornflowerblue;
+  background-color: rgba(109, 121, 57, 0.54);
 }
+/* Begin Sidebar */
+/* Added width, position/float, background color, margin & padding, font size */
 #sidebar {
   width: 300px;
   float: right;
-  background-color: #E7A897;
+  background-color: rgba(121, 101, 57, 0.74);
   margin: 20px;
   padding: 10px;
   font-size: 15px;
 }
+/* Changed font size for h2 */
 #sidebar h2 {
   font-size: 18px;
 }
+/* Removed bullets */
 #sidebar ul li {
   list-style: none;
   display: inline;
 }
+/* Added dl */
 #sidebar dl {
   width: 300px;
   overflow: wrap;
   padding: 0;
   margin: 0;
 }
+/* Added dt */
 #sidebar dt {
   float: left;
   width: 40%;
   padding: 0;
   margin: 0;
 }
+/* Added dd */
 #sidebar dd {
   float: left;
   width: 60%;
@@ -53,7 +64,8 @@ a:hover {
   padding: 0;
   margin: 0;
 }
-a:link { opacity: 1; }
+/* Begin Style Poem */
+/* Removed bullets, updated font size & family, adjusted line height */
 .poem,
 .poem ul li {
   list-style: none;
@@ -61,6 +73,7 @@ a:link { opacity: 1; }
   font-size: 15px;
   line-height: 30px;
 }
+/* Added photo of EA Poe */
 .bio-photo {
   display: block;
   float: left;
@@ -74,27 +87,36 @@ a:link { opacity: 1; }
   margin: 5px 5px 10px 10px;
   padding: 10px;
 }
+/* Added table to include Selected Works */
 .table {
   display: table;
+}
+/* Added border around Selected Works */
+.table, th, td {
+  border: 1px solid black;
   vertical-align: left;
-}
-#selected_works {
-  border: 3px black solid;
-}
+  text-align: left;
+}  
+/* Added Selected Works */
 #selected_works caption {
   font-style: italic;
   font-size: 20px;
   margin: 4px;
   padding: 10px;
 }
+/* Start Footer */
+/* Changed font size and centered text */
 .footer,
 .smalltext {
   font-size: 12px;
   text-align-last: center;
 }
+/* Start Bibliography */
+/* Removed bullets */
 .bibliography,
 .bibliography ul li {
   list-style: none;
 }
 
+/* End of Edits and CSS Style */
 
